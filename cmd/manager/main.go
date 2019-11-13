@@ -6,6 +6,9 @@ import (
 	"fmt"
 	"os"
 	"runtime"
+	// "sigs.k8s.io/controller-runtime/pkg/client"
+	// "strconv"
+	// crclient "sigs.k8s.io/controller-runtime/pkg/client"
 
 	// Import all Kubernetes client auth plugins (e.g. Azure, GCP, OIDC, etc.)
 	_ "k8s.io/client-go/plugin/pkg/client/auth"
@@ -39,6 +42,11 @@ var (
 )
 var log = logf.Log.WithName("cmd")
 
+func PrintMemUsage(i int) {
+	var m runtime.MemStats
+	runtime.ReadMemStats(&m)
+	fmt.Printf("Iter: %v | ALLOC: %v\n", i, m.Alloc/(1000*1000))
+}
 func printVersion() {
 	log.Info(fmt.Sprintf("Operator Version: %s", version.Version))
 	log.Info(fmt.Sprintf("Go Version: %s", runtime.Version()))

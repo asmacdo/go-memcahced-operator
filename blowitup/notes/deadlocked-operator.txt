@@ -1,0 +1,25 @@
+{"level":"info","ts":1574356243.1945515,"logger":"cmd","msg":"Operator Version: 0.0.1"}
+{"level":"info","ts":1574356243.1945863,"logger":"cmd","msg":"Go Version: go1.12.10"}
+{"level":"info","ts":1574356243.1945956,"logger":"cmd","msg":"Go OS/Arch: linux/amd64"}
+{"level":"info","ts":1574356243.1946054,"logger":"cmd","msg":"Version of operator-sdk: v0.12.0+git"}
+{"level":"info","ts":1574356243.194776,"logger":"leader","msg":"Trying to become the leader."}
+{"level":"info","ts":1574356243.4568517,"logger":"leader","msg":"Found existing lock","LockOwner":"go-memcached-operator-799d84b968-m5bdh"}
+{"level":"info","ts":1574356243.4624946,"logger":"leader","msg":"Not the leader. Waiting."}
+{"level":"info","ts":1574356244.5869596,"logger":"leader","msg":"Not the leader. Waiting."}
+{"level":"info","ts":1574356246.9724836,"logger":"leader","msg":"Not the leader. Waiting."}
+{"level":"info","ts":1574356251.5085468,"logger":"leader","msg":"Not the leader. Waiting."}
+{"level":"info","ts":1574356260.2123284,"logger":"leader","msg":"Not the leader. Waiting."}
+{"level":"info","ts":1574356277.5748167,"logger":"leader","msg":"Not the leader. Waiting."}
+{"level":"info","ts":1574356295.7795398,"logger":"leader","msg":"Not the leader. Waiting."}
+{"level":"info","ts":1574356311.994748,"logger":"leader","msg":"Not the leader. Waiting."}
+{"level":"info","ts":1574356328.501763,"logger":"leader","msg":"Not the leader. Waiting."}
+{"level":"info","ts":1574356344.8178055,"logger":"leader","msg":"Not the leader. Waiting."}
+{"level":"info","ts":1574356361.7862341,"logger":"leader","msg":"Not the leader. Waiting."}
+{"level":"info","ts":1574356379.438492,"logger":"leader","msg":"Not the leader. Waiting."}
+{"level":"info","ts":1574356398.0468311,"logger":"leader","msg":"Not the leader. Waiting."}
+{"level":"info","ts":1574356414.7382386,"logger":"leader","msg":"Not the leader. Waiting."}
+{"level":"info","ts":1574356431.9626148,"logger":"leader","msg":"Not the leader. Waiting."}
+{"level":"info","ts":1574356448.9858744,"logger":"leader","msg":"Not the leader. Waiting."}
+{"level":"info","ts":1574356466.496744,"logger":"leader","msg":"Not the leader. Waiting."}
+{"level":"info","ts":1574356483.4080455,"logger":"leader","msg":"Not the leader. Waiting."}
+{"level":"info","ts":1574356500.3533666,"logger":"leader","msg":"Not the leader. Waiting."}

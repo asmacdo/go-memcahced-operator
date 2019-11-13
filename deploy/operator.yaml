@@ -16,7 +16,10 @@ spec:
       containers:
         - name: go-memcached-operator
           # Replace this with the built image name
-          image: REPLACE_IMAGE
+          image: quay.io/asmacdo/go-memcached-operator:vblowup2
+          # resources:
+          #   limits:
+          #     memory: "12Mi"
           command:
           - go-memcached-operator
           imagePullPolicy: Always
